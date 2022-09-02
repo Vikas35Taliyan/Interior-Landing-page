@@ -1,10 +1,9 @@
-## Name- Vikas kumar Taliyan
 
 ## Hashnode link- [Markdown guide](https://img.shields.io/badge/project-developer%20landingpage-green)
 ![skill](https://img.shields.io/badge/skill-css-yellow)
 
 # Developer landing page.
- In this Interior landing page project I used html and css.I learn more about position relative and others properties of css. Thanks to the Inueron team. 
+ In this Interior landing page project I used HTML and CSS. I learn more about position relative and others properties of CSS. Thanks to the Inueron.ai for teaching us in depth. 
 # Skills.
 * HTML
 * CSS
