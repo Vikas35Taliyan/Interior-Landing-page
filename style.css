@@ -7,11 +7,9 @@
 }
 
 body {
-  background-image: linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.4)
-    ),
+      rgba(0, 0, 0, 0.4)),
     url("./image/backimg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +19,7 @@ body {
   width: 70vw;
 }
 
-/* logo */
+/* logo================================================== */
 .logo {
   width: 8rem;
   position: relative;
@@ -30,7 +28,7 @@ body {
 }
 
 
-/* navbar */
+/* navbar================================================ */
 .nav-item {
   display: flex;
   justify-content: flex-end;
@@ -50,7 +48,7 @@ body {
   margin-top: 20px;
 }
 
-/* heading */
+/* heading=========================================== */
 .heading {
   position: relative;
   top: 8rem;
@@ -74,7 +72,7 @@ body {
   margin-top: 40px;
 }
 
-/* icons */
+/* icons============================================== */
 .icon01 {
   position: relative;
   left: 57rem;
@@ -125,6 +123,7 @@ body {
   width: 260px;
   padding: 15px;
 }
+
 .line02 {
   position: relative;
   background-color: #ffffff;
@@ -142,4 +141,97 @@ body {
   border-radius: 10px;
   left: 309px;
   margin-top: -8px;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20vw;
+  }
+
+  .logo img {
+    width: 5rem;
+    left: 4rem;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  .line {
+    height: 1px;
+    width: 350px;
+    left: .1rem;
+    margin-top: 20px;
+  }
+
+  .icon01 {
+    left: 2rem;
+    top: -25rem;
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .icon01 p {
+    font-size: 8px;
+  }
+
+  .icon02 {
+    left: 2rem;
+    top: -24rem;
+    height: 70px;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .icon02 p {
+    font-size: 6px;
+  }
+
+  .heading {
+    top: 13rem;
+    left: 5rem;
+  }
+
+  .heading h1 {
+    font-size: 3rem;
+  }
+
+  .buttonn button {
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 14px 20px;
+  }
+
+  .line01 {
+    display: none;
+  }
+
+  .dot01 {
+    display: none;
+  }
+
+  .line02 {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 230px) {
+  .logo img {
+    width: 4rem;
+    left: 3rem;
+  }
+
+  .nav-item {
+    gap: 1rem;
+  }
+
 }
