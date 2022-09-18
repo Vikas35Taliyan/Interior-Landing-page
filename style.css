@@ -173,7 +173,7 @@ body {
 
   .icon01 {
     left: 2rem;
-    top: -25rem;
+    top: -32rem;
     height: 70px;
     width: 150px;
     padding: 10px;
@@ -185,14 +185,14 @@ body {
 
   .icon02 {
     left: 2rem;
-    top: -24rem;
+    top: -30rem;
     height: 70px;
     width: 150px;
     padding: 10px;
   }
 
   .icon02 p {
-    font-size: 6px;
+    font-size: 5px;
   }
 
   .heading {
